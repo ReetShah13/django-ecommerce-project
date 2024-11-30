@@ -1,0 +1,7 @@
+<h1>{{ product.name }}</h1>
+<img src="{{ product.image.url }}" alt="{{ product.name }}" style="max-width: 200px;">
+<p>{{ product.description }}</p>
+<p>Price: ${{ product.price }}</p>
+<p>Stock: {{ product.stock }}</p>
+<a href="/">Back to Products</a>
+<a href="{{ product.id }}/add_to_cart/">Add to Cart</a>
